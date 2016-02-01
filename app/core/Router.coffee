@@ -136,6 +136,8 @@ module.exports = class CocoRouter extends Backbone.Router
 
     'preview': go('HomeView')
 
+    'privacy': go('PrivacyView')
+
     'schools': go('SalesView')
 
     'teachers': go('TeachersView')
